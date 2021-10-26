@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 3%;
+}
+
+div{
+    display: inline-block;
+}
+
+#terry{
+    margin: 0 0 0 35%;
+}
+
+#ball1, #ball2, #ball3, #ball4{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+div > div:hover{
+    box-shadow: 0px 0px 4px;
+}
+
+#ball1{
+    background-image: linear-gradient(50deg, green 50%, purple 50%);
+}
+
+#ball2{
+    background-image: linear-gradient(50deg, rgb(71,61,116) 50%, yellow 50%);
+}
+
+#ball3{
+    background-image: linear-gradient(50deg, rgb(2,0,33) 50%, rgb(211,87,0) 50%);
+}
+
+#ball4{
+    background-image: linear-gradient(50deg, rgb(12,0,74) 50%, cyan 50%);
+}
+

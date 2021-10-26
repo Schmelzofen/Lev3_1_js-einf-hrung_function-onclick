@@ -6,15 +6,15 @@
 
 h1{
     text-align: center;
-    padding: 3%;
+    padding: 5%;
 }
 
 div{
-    display: inline-block;
+
 }
 
 #terry{
-    margin: 0 0 0 35%;
+    display: flex;
 }
 
 #ball1, #ball2, #ball3, #ball4{
@@ -22,6 +22,7 @@ div{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 div > div:hover{
